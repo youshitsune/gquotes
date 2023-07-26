@@ -31,13 +31,22 @@ expand_mode = 1
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 334.0
+offset_left = 358.0
 offset_top = 1589.0
-offset_right = 701.0
+offset_right = 725.0
 offset_bottom = 1666.0
 theme_override_font_sizes/font_size = 50
 text = "Random quote"
 script = ExtResource("2_7vcu1")
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 408.0
+offset_top = 1907.0
+offset_right = 665.0
+offset_bottom = 1984.0
+theme_override_font_sizes/font_size = 50
+text = "All Quotes"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
@@ -51,3 +60,4 @@ vertical_alignment = 1
 autowrap_mode = 3
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+[connection signal="pressed" from="Button2" to="Button" method="_on_button_2_pressed"]
