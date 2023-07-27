@@ -24,7 +24,7 @@ window/handheld/orientation=1
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_svg/plugin.cfg")
+enabled=PackedStringArray()
 
 [rendering]
 
